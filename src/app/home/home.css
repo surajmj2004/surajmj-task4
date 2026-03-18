@@ -1,0 +1,51 @@
+p{
+    max-width: 700px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+}
+img{
+    height: 250px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.about{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.sect{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+   
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 23px rgba(0,0,0,0.4);
+}
+.divsec{
+    display:flex;
+    justify-content:space-around;
+    gap:10px;
+   margin-top: 20px;
+   margin-right: 20px;
+
+}
+
+.box{
+    width:45%;
+    padding:20px;
+    border:1px solid rgb(36, 35, 35)
+}
+
+.p1{
+    text-align:justify;
+}
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

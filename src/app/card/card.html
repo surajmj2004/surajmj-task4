@@ -1,0 +1,9 @@
+
+<div class="card" >
+  <img src="{{ product.image }}" class="card-img-top" alt="profile">
+  <div class="card-body">
+    <h6 class="card-title title">{{ product.title }}  </h6>
+    <p class="card-text b-text"> ${{ product.price }}rs</p>
+    <button [routerLink]="['/product',product.id]" class="view-btn">view</button>
+  </div>
+</div>
